@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap');
+
+* {
+	/* CSS reset */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	/* Minimal global styling */
+	font-family: 'IBM Plex Sans', sans-serif;
+	background-color: var(--color-gray-90);
+	color: var(--color-gray-10);
+}
+
+:root {
+	font-size: 32px;
+
+	/* Custom properties. */
+	--color-gray-90: #262626;
+	--color-gray-10: #f4f4f4;
+	--color-white: #ffffff;
+	--color-primary-100: #3578e5;
+	--color-primary-70: #3578e5b3;
+    --spacing-10: 4rem;
+    --spacing-05: 1rem;
+    --spacing-02: .25rem;
+}
+
+.legal-02, small {
+	font-size: 0.875rem;
+	line-height: 1.125rem;
+	font-weight: 400;
+	letter-spacing: 0.16px;
+}
+
+.body-02, p, div, span {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+	letter-spacing: 0px;
+}
+
+.heading-02, h3 {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 600;
+	letter-spacing: 0px;
+}
+
+.heading-07, h1 {
+	font-size: 3.375rem;
+	line-height: 4rem;
+	font-weight: 300;
+	letter-spacing: 0px;
+}
+
+.gradient-text {
+	width: fit-content;
+	background-image: linear-gradient(90deg, var(--color-primary-70), var(--color-primary-100));
+	background-clip: text;
+	color: transparent;
+}
